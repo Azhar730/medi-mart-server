@@ -47,6 +47,8 @@ const medicineSchema = new Schema<TMedicine>(
       type: Boolean,
       default: true,
     },
+    ratings: { type: Number, default: 0.0 },
+    totalRatings: { type: Number, default: 0 },
     isDeleted: { type: Boolean, default: false },
     image: {
       type: String,

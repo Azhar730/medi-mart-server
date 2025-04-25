@@ -8,6 +8,8 @@ export type TMedicine = {
   manufacturer: string;
   expiryDate: Date;
   inStock: boolean;
+  ratings: number;
+  totalRatings?: number;
   isDeleted: boolean;
   image?: string;
 };
